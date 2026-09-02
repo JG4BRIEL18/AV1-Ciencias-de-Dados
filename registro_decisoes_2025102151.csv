@@ -1,0 +1,9 @@
+variavel;acao;justificativa;impacto_possivel
+colunas_texto;Remoção de espaços nas extremidades;Padronização de strings e eliminação de caracteres ocultos.;Evita falhas no agrupamento e na contagem de categorias.
+aluguel_mensal_brl;Remoção de 4 registros nulos;Trata-se da variável-alvo. Imputar a resposta distorceria o aprendizado de modelos.;Pequena redução no tamanho amostral (de 250 para 246 linhas).
+geral;Remoção de 3 duplicatas completas;Registros 100% idênticos sem acréscimo de informação redundante.;Eliminação de viés em contagens e métricas agregadas.
+area_m2 / distancia_centro_km;Remoção de 2 registros com violação de domínio;Valores impossíveis fisicamente (área <= 0 e distância < 0).;Limpeza de ruídos críticos na base de dados.
+area_m2, idade_anos, condominio, iptu;Imputação de ausências pela mediana;Preenchimento defensivo com medida de tendência central robusta a outliers.;Preserva o tamanho amostral, mas pode reduzir a variância natural da variável.
+mobilia;Imputação pela moda;Categoria mais frequente aplicada a variável qualitativa.;Suave elevação da frequência relativa da categoria modal ('sem_mobilia').
+faixa_aluguel;Binning categórico com pd.cut;Categorização em baixo, médio e alto para análises por segmento.;Perda de detalhamento numérico contínuo em prol de interpretação por faixas.
+mobilia;One-hot encoding (dummies);Transformação em variáveis binárias numéricas para algoritmos de machine learning.;Aumento do número de colunas (multicolinearidade potencial se não removida a base).

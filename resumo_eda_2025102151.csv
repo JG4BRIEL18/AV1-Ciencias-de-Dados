@@ -1,0 +1,6 @@
+analise;descoberta_chave
+Univariada Aluguel;Média R$ 4.501,54 e Mediana R$ 4.280,00 com assimetria de 0,70 e 6 outliers acima de R$ 8.700,00.
+Bivariada Tipo x Aluguel;Coberturas lideram maior preço médio (R$ 8.040,00) e Kitnets o menor (R$ 2.155,79).
+Bivariada Area x Aluguel;Correlação de Pearson forte e positiva (r = 0,81, p < 0,001).
+Categorias Pet x Tipo;Teste Qui-Quadrado estatisticamente significante (χ² = 14,91, p = 0,0049).
+Multivariada Area x Aluguel x Mobilia;Imóveis mobiliados possuem preços superiores para áreas equivalentes.

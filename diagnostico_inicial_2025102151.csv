@@ -1,0 +1,17 @@
+variavel;tipo_inferido;valores_ausentes;percentual_ausente;valores_distintos
+condominio_mensal_brl;float64;13;5.2;172
+area_m2;float64;9;3.6;217
+iptu_anual_brl;float64;8;3.2;240
+idade_anos;float64;7;2.8;42
+aluguel_mensal_brl;float64;4;1.6;213
+mobilia;object;3;1.2;5
+codigo_imovel;object;0;0.0;247
+cidade;object;0;0.0;1
+quartos;int64;0;0.0;6
+aceita_pet;object;0;0.0;2
+bairro;object;0;0.0;8
+tipo_imovel;object;0;0.0;5
+andar;int64;0;0.0;20
+vagas_garagem;int64;0;0.0;4
+banheiros;int64;0;0.0;6
+distancia_centro_km;float64;0;0.0;96
